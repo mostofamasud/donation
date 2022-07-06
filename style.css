@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 18px;
+}
+.header{
+    background: linear-gradient(360deg, #121212, #12121200), url(images/donation0.jpg) no-repeat center center ;
+    background-size: cover;
+    color: #fff;
+    height: 85vh;
+    width: 100%;
+    max-width: 100%;
+}
+.header-container{
+    margin: 0 auto;
+    padding: 120px 0px;
+    text-align: center;
+}
+.header-heading-text{
+    font-size: 70px;
+}
+.header-paragraph-text{
+    padding-bottom: 20px ;
+}
+.default-btn{
+    background-color: #FF5959;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 3px;
+}
+/* Donation Container */
+.donation-amount{
+    padding: 120px;
+    margin: 0 auto;
+}
+.donation-container{
+    padding: 0px;
+    text-align: center;
+}
+.donation-heading-text{
+    font-size: 45px;
+    color: #121212;
+}
+.donation-paragraph-text{
+    color: #707070;
+    margin: 20px 0px;
+}
+.main-amount-container{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+}
+.amounts{
+    padding: 10px;
+    margin: 0px 20px;
+    background-color: #fafafa;
+    border-radius: 6px;
+    color: #707070;
+    display: inline-block;
+    font-size: 30px;
+
+}
+#common-amount{
+    color: #FF5959;
+    background-color: #ffeeee;
+    border: 2px solid #FF5959;
+}
+.donation-amount-form{
+    width: 57%;
+    margin: 0 auto;
+    text-align: center;
+}
+.input{
+    border: none;
+    border-bottom: 2px solid #ddd;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 60px;
+    margin-bottom: 25px;
+    padding: 10px 0px;
+}
+
+/* donation-plan */
+.donation-plan{
+    margin: 0;
+    padding: 0;
+}
+
+.card-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.card{
+    width: 27%;
+    padding: 30px;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#food{
+    background-color: #edf5f6;
+    margin-right: 20px;
+}
+#shelter{
+    background-color: #ffeeee;
+    margin-right: 20px;
+}
+#education{
+    background-color: #fff4d6;
+}
+.card h3{
+    font-size: 24;
+    font-weight: 600;
+    padding: 10px 0px;
+    margin: 10px 0;
+    color: #121212;
+}
